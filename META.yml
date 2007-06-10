@@ -12,4 +12,4 @@ no_index:
     - t
 requires: 
   Algorithm::Diff: 0
-version: 0.02
+version: 0.03
