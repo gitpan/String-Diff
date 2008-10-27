@@ -1,3 +1,4 @@
+BEGIN{ $ENV{STRING_DIFF_PP} = 1; }
 use strict;
 use utf8;
 use Test::Base;
