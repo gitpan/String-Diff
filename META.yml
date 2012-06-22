@@ -3,10 +3,15 @@ abstract: 'Simple diff to String'
 author:
   - 'Kazuhiro Osawa <ko@yappo.ne.jp>'
 build_requires:
+  ExtUtils::MakeMaker: 6.36
+  Test::Base: 0
   Test::More: 0
   YAML: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
 distribution_type: module
-generated_by: 'Module::Install version 0.760'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,5 +24,7 @@ no_index:
 requires:
   Algorithm::Diff: 0
 resources:
+  homepage: https://github.com/yappo/p5-String-Diff/tree
   license: http://dev.perl.org/licenses/
-version: 0.04
+  repository: git://github.com/yappo/p5-String-Diff.git
+version: 0.05
