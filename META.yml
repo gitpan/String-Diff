@@ -27,4 +27,4 @@ resources:
   homepage: https://github.com/yappo/p5-String-Diff/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/yappo/p5-String-Diff.git
-version: 0.05
+version: 0.06
